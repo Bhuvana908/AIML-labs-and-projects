@@ -1,14 +1,16 @@
-# 📘 Machine Learning Foundations – Module
+# 📊 Appreciating, Interpreting and Visualizing Data
 
-This folder contains six notebooks covering core mathematical and data processing concepts for Machine Learning.
+This folder contains notebooks on visualization techniques and dimensionality reduction methods to better understand and interpret data.
 
 ## 📂 Contents
-1. **Basic of Linear Algebra** – Matrix operations, eigenvalues/eigenvectors, SVD, solving equations  
-2. **Probability and Statistics** – Distributions, probability, Bayes' theorem, CLT, entropy  
-3. **Extracting Features from Data** – Text-to-feature conversion, MNIST digit features  
-4. **Machine Learning Terms and Metrics** – Preprocessing, training, evaluation, cross-validation  
-5. **Data Augmentation** – Rotation, shear, combined transformations for performance improvement  
-6. **Transforming Data Using Linear Algebra** – Matrix transformations, data normalization  
+1. **Manifold Learning Methods** – Implementing ISOMAP and comparing with PCA  
+2. **Basic Plots** – Scatter plot, Box plot, Violin plot, Swarm plot, Joint plot (matplotlib & seaborn)  
+3. **Principal Component Analysis (PCA)** – Implementing PCA and analyzing results across dimensions  
+4. **t-SNE (t-Distributed Stochastic Neighbor Embedding)** – Implementing t-SNE and experimenting with:
+   - Perplexity values  
+   - Number of iterations  
+   - Exact vs. Approximate methods  
+5. **Project** – A mini-project applying the concepts from this module  
 
 ---
 
@@ -16,4 +18,3 @@ This folder contains six notebooks covering core mathematical and data processin
 Open any notebook in Jupyter/Colab to explore:
 ```bash
 jupyter notebook filename.ipynb
-
